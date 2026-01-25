@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-An customized personal agent designed to automate tasks, integrate with various services, and provide intelligent assistance.
+A customized personal agent designed to automate tasks, integrate with various services, and provide intelligent assistance.
 
 ## 🚀 Overview
 
@@ -39,15 +39,38 @@ cd custom-private-agent
 
 ## 📖 Documentation
 
-Comprehensive documentation is under development. Check the [PROJECT_RECOMMENDATIONS.md](PROJECT_RECOMMENDATIONS.md) file for a detailed analysis and roadmap.
+Comprehensive documentation is under development. Key resources:
+
+- [PROJECT_RECOMMENDATIONS.md](PROJECT_RECOMMENDATIONS.md) - Detailed analysis with 70+ recommendations across 15 categories
+- [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) - Complete overview of what has been delivered
+- [docs/architecture.md](docs/architecture.md) - System architecture design
+- [docs/getting-started.md](docs/getting-started.md) - Getting started guide
+- [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
+- [SECURITY.md](SECURITY.md) - Security policy
 
 ## 🏗️ Project Structure
 
 ```
 custom-private-agent/
-├── README.md                    # This file
-├── PROJECT_RECOMMENDATIONS.md   # Detailed analysis and recommendations
-└── [Additional files coming soon]
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   └── workflows/           # CI/CD workflows (coming soon)
+├── docs/
+│   ├── architecture.md
+│   └── getting-started.md
+├── examples/
+│   └── basic_usage.md
+├── .gitignore
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── IMPLEMENTATION_SUMMARY.md
+├── LICENSE
+├── PROJECT_RECOMMENDATIONS.md
+├── README.md                # This file
+└── SECURITY.md
 ```
 
 ## 🤝 Contributing
